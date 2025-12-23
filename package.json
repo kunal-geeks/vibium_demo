@@ -1,17 +1,18 @@
 {
   "name": "vibium_demo",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "hello": "node scripts/hello.js",
+    "negative": "node scripts/negative-login.js",
+    "positive": "node scripts/positive-login.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kunal-geeks/vibium_demo.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Kunal Sharma",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
